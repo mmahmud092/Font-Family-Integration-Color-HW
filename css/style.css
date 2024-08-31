@@ -1,0 +1,101 @@
+/*fonts links*/
+
+/* Best Practice */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face{
+	src: url(../fonts/suse/suse-light.ttf);
+	font-family: suse-light;
+}
+
+@font-face{
+	src: url(../fonts/suse/suse-bold.ttf);
+	font-family: suse-bold;
+}
+
+/* h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+} */
+
+
+h1{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+h2{
+	font-family: suse-bold;
+	font-family: 300;
+}
+
+h3{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+/* Color */
+
+/* solid name color*/
+
+.container{
+	overflow: hidden;
+
+}
+
+.abc{
+	width: 300px;
+	height: 100px;
+	background-color: blue;
+	float: left;
+	padding: 10px 0px;
+}
+
+/*hexadecimal color */
+
+.bcj{
+	width: 350px;
+	height: 120px;
+	background-color: #a85acd;
+	float: left;
+}
+
+/* RGB COlor */
+
+.bnb{
+	width: 380px;
+	height: 120px;
+	background-color: rgb(51, 195, 182);
+	float: left;
+
+}
+
+/* RGBA Color Opacity 1.0 */
+.cbc{
+	margin-top: -70px;
+	width: 900px;
+	height: 60px;
+	background-color: rgba(00, 00, 00, 1.0);
+}
+
+/* RGBA Color Opacity 0.5 */
+
+.tnt{
+	margin-top: -70px;
+	width: 900px;
+	height: 60px;
+	background-color: rgba(00, 00, 00, 0.5);
+}
+
+audio{
+	display: block;
+
+}
+
+video{
+	display: block;
+}
+
+
+	
